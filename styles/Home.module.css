@@ -8,6 +8,17 @@
   height: 100vh;
 }
 
+.articleContainer {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
 .main {
   padding: 5rem 0;
   flex: 1;
@@ -15,6 +26,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
+}
+
+.fullscreenmain {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100vh;
 }
 
 .footer {
