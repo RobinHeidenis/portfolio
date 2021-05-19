@@ -19,3 +19,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.navbar a {
+  margin-right: 20px;
+}
