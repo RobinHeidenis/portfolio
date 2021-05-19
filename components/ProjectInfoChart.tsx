@@ -15,7 +15,7 @@ export default function ProjectInfoChart(props: ProjectInfoChartProps) {
                 <b>STACK</b>
                 <div className={"flex flex-col"}>
                     {props.stack.map((item) => {
-                        return <p>{item}</p>
+                        return <p key={item}>{item}</p>
                     })}
                 </div>
             </div>
