@@ -7,12 +7,12 @@ interface ProjectCardProps {
 
 export default function ProjectCard(props: ProjectCardProps) {
     return (
-        <a href={props.url}>
-            <div className="overflow-hidden rounded-lg bg-white max-w-screen-sm">
+        <a href={props.url} className={"max-w-screen-sm even:justify-self-end xl:even:justify-self-start"}>
+            <div className="overflow-hidden rounded-lg bg-white h-full">
                 <div className="flex justify-center items-center">
                     <img
                         src={props.imageUrl}
-                        alt="Image of the finished product of this project"
+                        alt=""
                         className="object-cover h-48"
                     />
                 </div>

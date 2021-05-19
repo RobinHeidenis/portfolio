@@ -13,10 +13,10 @@ export default function ShoppingList() {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
+            <NavBar/>
             <header className={"text-white max-w-screen-sm"}>
-                <NavBar/>
                 <ArticleHeader title={"Shopping List"}
-                               description={"A shopping list made in React.js with material-ui"}/>
+                               description={"A shopping list made in React with Material-ui"}/>
             </header>
             <main className={"mt-5 max-w-screen-sm"}>
                 <h2 className={"text-4xl"}>Introduction</h2>

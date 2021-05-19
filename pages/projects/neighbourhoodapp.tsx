@@ -13,8 +13,8 @@ export default function Neighbourhoodapp() {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
+            <NavBar/>
             <header className={"text-white max-w-screen-sm"}>
-                <NavBar/>
                 <ArticleHeader title={"Neighbourhood App"}
                                description={"A neighbourhood app made with ASP.NET Core"}/>
             </header>
