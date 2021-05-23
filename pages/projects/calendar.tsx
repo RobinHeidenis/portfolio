@@ -13,8 +13,8 @@ export default function Neighbourhoodapp() {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
+            <NavBar/>
             <header className={"text-white max-w-screen-sm"}>
-                <NavBar/>
                 <ArticleHeader title={"Work schedule sync"}
                                description={"A program that syncs a work schedule to Google Calendar"}/>
             </header>

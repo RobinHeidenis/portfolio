@@ -26,15 +26,14 @@ export default function Home() {
                         <h2 className={"text-xl lg:text-3xl mt-5 mb-5"}>Front End Developer, Student</h2>
                         <p className={"ml-3 mt-5 lg:text-xl"}>
                             I am a {currentAge()}-year-old student at The Hague University of Applied Sciences.
-                            I study HBO-ICT, and I am due to graduate in 2023. <br/> <br/>
+                            I am a second year HBO-ICT Software Engineering student, and I am due to graduate in 2023. <br/> <br/>
                             I've been programming since I was 15. My dad taught me little bits and pieces about
                             websites and HTML.
                             He had me do a couple of exercises and gave me 'homework'. That's where my love for web
                             development started.
                             When I wrote my first lines of HTML I was just amazed and excited about the possibilities.
                             I did some development on and off, nothing serious.<br/><br/> Then I went to high school and
-                            I
-                            picked IT as a subject.
+                            I picked IT as a subject.
                             Here I learned the basics of web development following a curriculum. I wasn't done learning
                             after class, so I started doing the Responsive Web Development certification on
                             FreeCodeCamp.
