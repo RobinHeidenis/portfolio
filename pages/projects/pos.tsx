@@ -14,7 +14,7 @@ export default function Neighbourhoodapp() {
             </Head>
 
             <NavBar/>
-            <header className={"text-white max-w-screen-sm"}>
+            <header className={"text-white max-w-screen-sm article"}>
                 <ArticleHeader title={"POS Application"}
                                description={"A physical Point Of Sale application where customers can buy products and retrieve them from a desk"}/>
             </header>

@@ -18,7 +18,7 @@ export default function Neighbourhoodapp() {
                 <ArticleHeader title={"Work schedule sync"}
                                description={"A program that syncs a work schedule to Google Calendar"}/>
             </header>
-            <main className={"mt-5 max-w-screen-sm "}>
+            <main className={"mt-5 max-w-screen-sm article"}>
                 <h2 className={"text-4xl"}>Introduction</h2>
                 <ProjectInfoChart type={"Personal Project"} stack={["PHP", "CURL"]}/>
                 <h2 className={"text-4xl mt-5"}>The reason</h2>

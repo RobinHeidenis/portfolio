@@ -23,3 +23,15 @@ a {
 .navbar a {
   margin-right: 20px;
 }
+
+.article h3, p{
+  @apply mt-3 mb-2;
+}
+
+.article h2 {
+  @apply mt-5 mb-3
+}
+
+.article img, video{
+  @apply mt-5 mb-5;
+}

@@ -14,7 +14,7 @@ export default function ShoppingList() {
             </Head>
 
             <NavBar/>
-            <header className={"text-white max-w-screen-sm"}>
+            <header className={"text-white max-w-screen-sm article"}>
                 <ArticleHeader title={"Shopping List"}
                                description={"A shopping list made in React with Material-ui"}/>
             </header>

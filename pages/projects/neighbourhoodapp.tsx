@@ -18,7 +18,7 @@ export default function Neighbourhoodapp() {
                 <ArticleHeader title={"Neighbourhood App"}
                                description={"A neighbourhood app made with ASP.NET Core"}/>
             </header>
-            <main className={"mt-5 max-w-screen-sm "}>
+            <main className={"mt-5 max-w-screen-sm article"}>
                 <h2 className={"text-4xl"}>Introduction</h2>
                 <ProjectInfoChart type={"School Project"} stack={["ASP.NET Core", "MDC", "HTML", "CSS", "JavaScript"]}/>
                 <h2 className={"text-4xl mt-5"}>The reason</h2>
@@ -36,13 +36,13 @@ export default function Neighbourhoodapp() {
                     framework that has all the styling and components required to make your webapp in the material
                     style.
                 </p>
-                <h3 className={"text-2xl"}>Webauthn</h3>
+                <h3 className={"text-2xl"}>WebAuthn</h3>
                 <p>
                     A big feature that I worked on is logging in. I was responsible for the login flow, and I
-                    decided to go one step further than most. I added webauthn to the project. At the time I was very
-                    interested in webauthn, so I found a library that allowed us to implement this specification as a
-                    2FA option. Webauthn allows a user to confirm their identity using their device instead of a code. I
-                    also added the option of filling in a 2FA code if you're not on your webauthn device.
+                    decided to go one step further than most. I added WebAuthn to the project. At the time I was very
+                    interested in WebAuthn, so I found a library that allowed us to implement this specification as a
+                    2FA option. WebAuthn allows a user to confirm their identity using their device instead of a code. I
+                    also added the option of filling in a 2FA code if you're not on your WebAuthn device.
                 </p>
                 <h2 className={"text-4xl mt-5"}>The execution</h2>
                 <h3 className={"text-2xl"}>Init</h3>
@@ -64,12 +64,12 @@ export default function Neighbourhoodapp() {
                     to log in. But for the more privacy oriented users I also added a 2FA option. ASP.NET Core Identity
                     has this built in, but you still have to do some manual work to get it up and running. I was seeking
                     a challenge in this project, and this is one area where I could really learn something. At the time
-                    I was really interested in webauthn, and I decided to implement this standard in our application. I
-                    found a library that helped me accomplish this. I decided to use webauthn as a two factor
+                    I was really interested in WebAuthn, and I decided to implement this standard in our application. I
+                    found a library that helped me accomplish this. I decided to use WebAuthn as a two factor
                     authentication method. It took quite some time to get everything to work, because the library I used
                     was quite complicated and cluttered, but eventually I managed to get everything connected in the
                     right way. I also added a way to fill in a normal 2FA code if you're not on the device you
-                    registered webauthn with.
+                    registered WebAuthn with.
                 </p>
                 <h3 className={"text-2xl"}>Users, Posts, Comments</h3>
                 <p>
