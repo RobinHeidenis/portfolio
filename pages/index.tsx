@@ -21,10 +21,10 @@ export default function Home() {
                     <div
                         className={"flex flex-col items-center justify-center min-h-screen max-w-screen-md pt-5 pb-5"}>
                         <img src={"/images/me.jpg"} alt={"picture of me"} width={200} height={200}
-                             className={'rounded-full mb-4'}/>
-                        <h1 className={"text-2xl lg:text-5xl self-center"}>Hi there! I'm Robin</h1>
-                        <h2 className={"text-xl lg:text-3xl mt-5 mb-5"}>Front End Developer, Student</h2>
-                        <p className={"ml-3 mt-5 lg:text-xl"}>
+                             className={'rounded-full mb-4 animate-fade-in-up'}/>
+                        <h1 className={"text-2xl lg:text-5xl self-center animate-fade-in-up"}>Hi there! I'm Robin</h1>
+                        <h2 className={"text-xl lg:text-3xl mt-5 mb-5 animate-fade-in-up animation-delay-05"}>Front End Developer, Student</h2>
+                        <p className={"ml-3 mt-5 lg:text-xl animation-delay-1 animate-fade-in-up"}>
                             I am a {currentAge()}-year-old student at The Hague University of Applied Sciences.
                             I am a second year HBO-ICT Software Engineering student, and I am due to graduate in 2023. <br/> <br/>
                             I've been programming since I was 15. My dad taught me little bits and pieces about
